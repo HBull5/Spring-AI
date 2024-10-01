@@ -6,7 +6,7 @@
 * From the command line of this project run `mvn clean` -> `mvn install` -> `mvn spring-boot:run`
   * The application should start on port `8080`
 * Open the `index.html` file in the browser of your choosing, this should have all the canned rest endpoints for you to use.
-  * You can manually hit the following endpoints as well, they're both `GET` requests.
+  * You can manually hit the following endpoints as well, they're all `GET` requests.
     * [http://localhost:8080/dad-jokes](http://localhost:8080/dad-jokes)
     * [http://localhost:8080/dad-jokes?category=spiderman](http://localhost:8080/dad-jokes?category=spiderman)
     * [http://localhost:8080/dad-names](http://localhost:8080/dad-names)
