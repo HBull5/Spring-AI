@@ -2,7 +2,7 @@
 
 * Ensure you have installed mvn & java
 * Create your own [OpenAI](https://openai.com/) account and enter your api key in the application properties
-  * This project was designed to use their lowest cost model, several hits costs about a penny
+  * This project was designed to use their lowest cost model, hit the open ai api about 50 times, and charge is still less than a penny
 * From the command line of this project run `mvn clean` -> `mvn install` -> `mvn spring-boot:run`
   * The application should start on port `8080`
 * Open the `index.html` file in the browser of your choosin, this should have all the canned rest endpoints for you to use.
