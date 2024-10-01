@@ -1,15 +1,19 @@
-# Spring-AI
-
 ## How to Run
 
 * Ensure you have installed mvn & java
 * Create your own [OpenAI](https://openai.com/) account and enter your api key in the application properties
   * This project was designed to use their lowest cost model, several hits costs about a penny
-* From the command line of this project run `mvn clean` -> `mvn install` `mvn spring-boot:run`
+* From the command line of this project run `mvn clean` -> `mvn install` -> `mvn spring-boot:run`
   * The application should start on port `8080`
-* You can point your browser [here](http://localhost:8080/dad-jokes) and you should see the resulting screenshot below.
-  * Since this uses a lower tier model, a lot of the responses are the same across uses
+* Open the `index.html` file in the browser of your choosin, this should have all the canned rest endpoints for you to use.
+  * You can manually hit the following endpoints as well, they're both `GET` requests.
+    * [http://localhost:8080/dad-jokes](http://localhost:8080/dad-jokes)
+    * [http://localhost:8080/dad-jokes?category=spiderman](http://localhost:8080/dad-jokes?category=spiderman)
+    * [http://localhost:8080/dad-names](http://localhost:8080/dad-names)
+* You should now see a screen like the one shown below. 
 
-![alt text](https://raw.githubusercontent.com/HBull5/Spring-AI/refs/heads/main/screenshot.png?token=GHSAT0AAAAAACYJ5YXRJX5XFJTCAYIB5PGQZX4E5UQ)
+![screenshot-1](https://raw.githubusercontent.com/HBull5/Spring-AI/refs/heads/main/screenshot-1.png?token=GHSAT0AAAAAACYJ5YXRD7GE27IRP6ZWM4PIZX4H7UQ)
 
-* You can also provide a category by adding a query parameter, as shown [here](http://localhost:8080/dad-jokes?category=spiderman)
+* You can also provide a category by entering one in the input box as shown below
+
+![screenshot-2](https://raw.githubusercontent.com/HBull5/Spring-AI/refs/heads/main/screenshot-2.png?token=GHSAT0AAAAAACYJ5YXRUNYA2I5AXOBKFD4WZX4IA2Q)
