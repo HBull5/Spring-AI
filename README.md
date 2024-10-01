@@ -12,4 +12,4 @@
 
 ![alt text](https://raw.githubusercontent.com/HBull5/Spring-AI/refs/heads/main/screenshot.png?token=GHSAT0AAAAAACYJ5YXRJX5XFJTCAYIB5PGQZX4E5UQ)
 
-* You can also provide a category by adding a query parameter, as shown [here]([http://localhost:8080/dad-jokes?category=spiderman)
+* You can also provide a category by adding a query parameter, as shown [here](http://localhost:8080/dad-jokes?category=spiderman)
