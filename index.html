@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Custom Scripts -->
+  <script src="./app.js"></script>
+  <title>Spring AI | Dad Jokes</title>
+</head>
+<body>
+  <div class="container-lg mt-5">
+    <div class="row">
+      <!-- Form -->
+      <div class="col-4">
+        <form>
+          <div class="mb-3 me-5">
+            <label for="category" class="form-label">Category</label>
+            <input class="form-control" id="category" placeholder="Enter category or leave blank">
+          </div>
+          <button id="submit-btn" type="submit" class="btn btn-primary">Go</button>
+        </form>
+      </div>
+      <!-- Output -->
+      <div class="col-8 border-start d-flex flex-column justify-content-center align-items-center px-5">
+        <blockquote class="blockquote">
+          <h5 class="text-center">
+            <em><span id="joke-output">Loading...</span></em>
+          </h5>
+        </blockquote>
+        <br/>
+        <h6 id="name-output"></h6>
+      </div>
+    </div>   
+  </div>
+</body>
+</html>

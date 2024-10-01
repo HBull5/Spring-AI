@@ -14,8 +14,14 @@ public class JokeController {
 
   @GetMapping("/dad-jokes")
   @CrossOrigin
-  public String generate(@RequestParam(value = "message", defaultValue = "Tell me a dad joke") String message) {
-    return service.generateJoke(message);
+  public String generateJoke(@RequestParam(value = "category", defaultValue = "Tell me a dad joke") String category) {
+    return service.generateJoke(category);
+  }
+
+  @GetMapping("/dad-names")
+  @CrossOrigin
+  public String generateName() {
+    return service.generateName();
   }
   
 }
