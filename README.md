@@ -9,4 +9,4 @@
   * The application should start on port `8080`
 * You can point your browser too 
 
-![Uploading image.png…]()
+![alt text](https://raw.githubusercontent.com/HBull5/Spring-AI/refs/heads/main/screenshot.png?token=GHSAT0AAAAAACYJ5YXRJX5XFJTCAYIB5PGQZX4E5UQ)
